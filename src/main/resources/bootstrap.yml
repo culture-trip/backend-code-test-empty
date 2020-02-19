@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: article
+
+encrypt:
+  failOnError: false
+
+---
+spring:
+  profiles: local
+
+logging:
+  level:
+    org.springframework.ws.client.MessageTracing: trace
+    uk.co.whitbread: debug
+
