@@ -46,7 +46,7 @@ The skeleton classes that conform the RESTful API are provided, and we suggest t
 - This RESTful web service has been built with [Spring Boot](https://spring.io/projects/spring-boot).
 - We expect the candidate to follow TDD, including at least the mot significant tests (both unit and integration tests).
 - Testing can be done by using *Spring Boot Test Starter*, [JUnit5](https://junit.org/junit5/) /  [JUnit4](https://junit.org/junit4/) + [Hamcrest](http://hamcrest.org/), [Mockito](https://site.mockito.org/), [WireMock](http://wiremock.org/), *MockMvc* / *TestRestTemplate* / [Rest-assured](https://github.com/rest-assured/rest-assured), or any other frameworks/libraries.
-- As HTTP client to connect to the *External Service* you can use Spring's RestTemplate, [Retrofit](https://square.github.io/retrofit/), [Unirest](http://unirest.io/) or similar libraries.
+- As HTTP client to connect to the *External Service* you can use Spring's *RestTemplate*, [Retrofit](https://square.github.io/retrofit/), [Unirest](http://unirest.io/) or similar libraries.
 - For database requests, we suggest to implement the service **ArticleService** based on the provided *CrudRepository* **ArticleRepository**, but you are free to use [JDBI](http://jdbi.org/), [JDBC](https://docs.oracle.com/javase/tutorial/jdbc/basics/index.html) or any ORM or library.
 
 ##
